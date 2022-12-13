@@ -1,0 +1,56 @@
+body {
+  font-family: helvetica;
+  margin: 20px;
+}
+
+section {
+  border: 2px solid blue;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 10px 10px 10px 0;
+  display: flex;
+}
+
+aside {
+  justify-content: space-between;
+  flex-basis: 50%;
+  padding: 4px 10px;
+}
+
+input {
+  display: block;
+  margin: 10px 0 20px 0;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 20px;
+  padding: 6px;
+}
+
+button {
+  cursor: pointer;
+  width: 90px;
+  height: 30px;
+  border-radius: 8px;
+  border: 1px solid cadetblue;
+  font-size: 16px;
+}
+
+td {
+  text-align: center;
+  border: 1px solid black;
+}
+
+table {
+  margin: 50px 0;
+  border-collapse: collapse;
+  padding: 4px;
+  width: 80%;
+}
+
+#summary td {
+  border: none;
+}
+
+.deleteBtn {
+  cursor: pointer;
+}
